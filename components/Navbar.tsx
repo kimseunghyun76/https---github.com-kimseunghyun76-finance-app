@@ -24,6 +24,9 @@ export default function Navbar() {
                             <Link href="/battle" className="px-4 py-2 rounded-full text-sm font-medium text-amber-400 hover:text-amber-300 hover:bg-amber-400/10 transition-all flex items-center gap-1">
                                 <span>⚔️</span> AI 배틀
                             </Link>
+                            <Link href="/time-machine" className="px-4 py-2 rounded-full text-sm font-medium text-purple-400 hover:text-purple-300 hover:bg-purple-400/10 transition-all flex items-center gap-1">
+                                <span>🕰️</span> 타임머신
+                            </Link>
                         </div>
                     </div>
                     <div className="flex items-center gap-4 w-full max-w-md justify-end">

@@ -97,5 +97,10 @@ export const api = {
   getSmartCalendar: async () => {
     const response = await axios.get(`${API_BASE_URL}/calendar/smart`);
     return response.data;
+  },
+
+  getTimeMachineCalculation: async (ticker: string, amount: number, date: string) => {
+    const response = await axios.post(`${API_BASE_URL}/time-machine`, { ticker, amount, date });
+    return response.data;
   }
 };
